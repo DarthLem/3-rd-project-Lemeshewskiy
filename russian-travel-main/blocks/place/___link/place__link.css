@@ -13,9 +13,9 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    text-decoration: none;
+    text-decoration: none underline;
     color: white;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 .place__link:hover {
