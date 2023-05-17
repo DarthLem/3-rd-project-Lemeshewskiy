@@ -1,0 +1,44 @@
+.place__paragraph {
+    grid-area: paragraph;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.place__paragraph:nth-child(2) {
+    margin-top: 25px;
+}
+
+.place__paragraph:first-child {
+    margin-top: 32px;
+}
+
+@media screen and (min-width: 768px) {
+    .place__paragraph {
+        min-width: 352px;
+        margin-top: 0;
+    }
+    .place__paragraph:first-child {
+        margin-top: 0;
+    }
+    .place__paragraph:nth-child(2) {
+        margin-top: 25px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .place__paragraph {
+        font-size: 18px;
+        line-height: 29px;
+        min-width: 456px;
+    }
+    .place__paragraph:nth-child(2) {
+        margin-top: 26px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .place__paragraph {
+        min-width: 484px;
+    }
+}

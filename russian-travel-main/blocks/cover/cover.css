@@ -1,0 +1,27 @@
+.cover {
+    display: grid;
+    color: #fff;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin-top: 66px;
+    grid-auto-rows: 0;
+    grid-auto-columns: 0;
+    /* justify-content: center; */
+    /* overflow: hidden; */
+}
+
+@media screen and (min-width: 768px) {
+    .cover {
+        margin: 90px 0 0 0;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .cover {
+        margin: 92px 0 0 0;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .cover {
+        margin: 92px 3.75% 0 3.75%;
+    }
+}
