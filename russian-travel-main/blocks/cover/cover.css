@@ -1,13 +1,6 @@
 .cover {
-    display: grid;
-    color: #fff;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
     margin-top: 66px;
-    grid-auto-rows: 0;
-    grid-auto-columns: 0;
-    /* justify-content: center; */
-    /* overflow: hidden; */
+    min-width: 320px;
 }
 
 @media screen and (min-width: 768px) {

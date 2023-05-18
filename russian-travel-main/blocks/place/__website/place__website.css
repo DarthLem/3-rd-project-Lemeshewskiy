@@ -1,11 +1,7 @@
-/* .place__website {
-    display: flex;
-    flex-direction: column;
-} */
-
 .place__website {
     grid-area: website;
     margin: 32px auto 32px 16px;
+    text-decoration: none;
 }
 
 @media screen and (min-width: 768px) {
