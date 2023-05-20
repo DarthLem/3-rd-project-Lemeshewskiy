@@ -5,7 +5,6 @@
 
 @media screen and (min-width: 768px) {
     .place__website {
-        align-self: center;
         margin: 0;
         align-self: end;
         justify-self: start;
