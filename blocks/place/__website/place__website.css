@@ -7,8 +7,6 @@
     .place__website {
         align-self: center;
         margin: 0;
-    }
-    .place__website {
         align-self: end;
         justify-self: start;
     }
